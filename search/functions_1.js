@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['calculatemapboundingboxandcenter',['CalculateMapBoundingBoxAndCenter',['../class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#ab79436182a28fb6cd913daf653476ad8',1,'Wunderwunsch::HexMapLibrary::HexMapBase']]],
+  ['cartesiancoordtoclosestedgecoord',['CartesianCoordToClosestEdgeCoord',['../class_wunderwunsch_1_1_hex_map_library_1_1_hex_converter.html#a9e193cbd29bc2ab5a921719cc85fb2a2',1,'Wunderwunsch::HexMapLibrary::HexConverter']]],
+  ['cartesiancoordtocubecoord',['CartesianCoordToCubeCoord',['../class_wunderwunsch_1_1_hex_map_library_1_1_hex_converter.html#a01505b4d8f88dec8613dc6fb351b58fa',1,'Wunderwunsch::HexMapLibrary::HexConverter']]],
+  ['cartesiancoordtooffsetcoord',['CartesianCoordToOffsetCoord',['../class_wunderwunsch_1_1_hex_map_library_1_1_hex_converter.html#a6752aabafee5b09f375bce4a736a414b',1,'Wunderwunsch::HexMapLibrary::HexConverter']]],
+  ['clamptoclosestvalidedgecoordinate',['ClampToClosestValidEdgeCoordinate',['../class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#abe90caabc8e601b949a7b380b4875f60',1,'Wunderwunsch::HexMapLibrary::HexMapBase']]],
+  ['clamptoclosestvalidtilecoordinate',['ClampToClosestValidTileCoordinate',['../class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#abe456f720694feef4977b141afd7215c',1,'Wunderwunsch::HexMapLibrary::HexMapBase']]],
+  ['coordinateisonmap',['CoordinateIsOnMap',['../class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#aacbe79b11c958845d4438c0b946d0ab8',1,'Wunderwunsch::HexMapLibrary::HexMapBase']]],
+  ['coordinatewrapperrectangularhorizonalperiodic',['CoordinateWrapperRectangularHorizonalPeriodic',['../class_wunderwunsch_1_1_hex_map_library_1_1_coordinate_wrapper_rectangular_horizonal_periodic.html#a00f2166caacb099c6de8fab91af4969d',1,'Wunderwunsch::HexMapLibrary::CoordinateWrapperRectangularHorizonalPeriodic']]],
+  ['createedgeindex',['CreateEdgeIndex',['../class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base_with_edges.html#ac959bcb73faccbfaa2a2f9f778cf5f2a',1,'Wunderwunsch::HexMapLibrary::HexMapBaseWithEdges']]],
+  ['createedges',['CreateEdges',['../class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html#a2c847b48b923321a966ad55610797f65',1,'Wunderwunsch::HexMapLibrary::Generic::HexMap']]],
+  ['createhexagonalshapedmap',['CreateHexagonalShapedMap',['../class_wunderwunsch_1_1_hex_map_library_1_1_map_shape.html#add5c8b98a1381d6a4a5e9fb33ca0b214',1,'Wunderwunsch::HexMapLibrary::MapShape']]],
+  ['createrectangularshapedmap',['CreateRectangularShapedMap',['../class_wunderwunsch_1_1_hex_map_library_1_1_map_shape.html#abcb911d11b77bb88c04b291d176114e1',1,'Wunderwunsch::HexMapLibrary::MapShape']]],
+  ['createrectangularshapedmapoddrowsoneshorter',['CreateRectangularShapedMapOddRowsOneShorter',['../class_wunderwunsch_1_1_hex_map_library_1_1_map_shape.html#a819e2f157c7d98bc1b5c8731a921f4b2',1,'Wunderwunsch::HexMapLibrary::MapShape']]],
+  ['createtiles',['CreateTiles',['../class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html#a23af4bbb1b8c31b85af751c8b0ff8768',1,'Wunderwunsch::HexMapLibrary::Generic::HexMap']]],
+  ['createtriangularshapedmap',['CreateTriangularShapedMap',['../class_wunderwunsch_1_1_hex_map_library_1_1_map_shape.html#a50fd6b278e3a0df1ce77ce86f60c3d34',1,'Wunderwunsch::HexMapLibrary::MapShape']]],
+  ['cubecoordtocartesiancoord',['CubeCoordToCartesianCoord',['../class_wunderwunsch_1_1_hex_map_library_1_1_hex_converter.html#a920d46c2fe1ed5d3ca4d0a9e2bf3402c',1,'Wunderwunsch::HexMapLibrary::HexConverter']]],
+  ['cubecoordtooffsetcoord',['CubeCoordToOffsetCoord',['../class_wunderwunsch_1_1_hex_map_library_1_1_hex_converter.html#a660f897b4e674b3c56557ed425543c85',1,'Wunderwunsch::HexMapLibrary::HexConverter']]]
+];

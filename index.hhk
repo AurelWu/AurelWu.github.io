@@ -1,0 +1,352 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_base_edge.html#a061a74b7e542d9de7f3fe7934245992b"><param name="Name" value="BaseEdge"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_base_tile.html#abb155455960f462d03d6e3ed584cb829"><param name="Name" value="BaseTile"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#ab79436182a28fb6cd913daf653476ad8"><param name="Name" value="CalculateMapBoundingBoxAndCenter"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_mouse.html#aa0decb0b4087992392bedc9440c09447"><param name="Name" value="CartesianCoordRaw"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_converter.html#a9e193cbd29bc2ab5a921719cc85fb2a2"><param name="Name" value="CartesianCoordToClosestEdgeCoord"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_converter.html#a01505b4d8f88dec8613dc6fb351b58fa"><param name="Name" value="CartesianCoordToCubeCoord"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_converter.html#a6752aabafee5b09f375bce4a736a414b"><param name="Name" value="CartesianCoordToOffsetCoord"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_mouse.html#a99bd86f3daf23c735c765de720ee2de1"><param name="Name" value="CartesianCoordWrapped"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_base_edge.html#ad0f071df72d1769f4e31ee86ac680357"><param name="Name" value="CartesianPosition"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_base_edge.html#ad0f071df72d1769f4e31ee86ac680357"><param name="Name" value="Wunderwunsch::HexMapLibrary::BaseEdge"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_base_tile.html#aca1a90e590f25a258deea3ebac76b80d"><param name="Name" value="Wunderwunsch::HexMapLibrary::BaseTile"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_map_element.html#a489f96e1536cc44643abb17742ced569"><param name="Name" value="Wunderwunsch::HexMapLibrary::MapElement"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#a409f6360528560c80092dd1409c59792"><param name="Name" value="Center"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_mouse.html#a7224c20455c09572802eab68a073fa57"><param name="Name" value="ClampToClosestValid"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#abe90caabc8e601b949a7b380b4875f60"><param name="Name" value="ClampToClosestValidEdgeCoordinate"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#abe456f720694feef4977b141afd7215c"><param name="Name" value="ClampToClosestValidTileCoordinate"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_mouse.html#a03681eb477b49590979c0be2d96badca"><param name="Name" value="ClosestEdgeCoord"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_mouse.html#a5874d3469bf593750607bea0aff88737"><param name="Name" value="ClosestEdgeCoordRaw"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#aacbe79b11c958845d4438c0b946d0ab8"><param name="Name" value="CoordinateIsOnMap"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#ab4fdaadab95d6fa2e70be5fcc68afd1c"><param name="Name" value="CoordinateWrapper"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_coordinate_wrapper_rectangular_horizonal_periodic.html#a00f2166caacb099c6de8fab91af4969d"><param name="Name" value="CoordinateWrapperRectangularHorizonalPeriodic"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base_with_edges.html#ac959bcb73faccbfaa2a2f9f778cf5f2a"><param name="Name" value="CreateEdgeIndex"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html#a2c847b48b923321a966ad55610797f65"><param name="Name" value="CreateEdges"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_map_shape.html#add5c8b98a1381d6a4a5e9fb33ca0b214"><param name="Name" value="CreateHexagonalShapedMap"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_map_shape.html#abcb911d11b77bb88c04b291d176114e1"><param name="Name" value="CreateRectangularShapedMap"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_map_shape.html#a819e2f157c7d98bc1b5c8731a921f4b2"><param name="Name" value="CreateRectangularShapedMapOddRowsOneShorter"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html#a23af4bbb1b8c31b85af751c8b0ff8768"><param name="Name" value="CreateTiles"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_map_shape.html#a50fd6b278e3a0df1ce77ce86f60c3d34"><param name="Name" value="CreateTriangularShapedMap"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_mouse.html#a3b98c63f128953dd655c647fae2bc0c8"><param name="Name" value="CubeCoord"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_mouse.html#af8dd53e88f0a157073ea9e4353357a4a"><param name="Name" value="CubeCoordRaw"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_converter.html#a920d46c2fe1ed5d3ca4d0a9e2bf3402c"><param name="Name" value="CubeCoordToCartesianCoord"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_converter.html#a660f897b4e674b3c56557ed425543c85"><param name="Name" value="CubeCoordToOffsetCoord"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_mouse.html#ac010861d305a5c931d5be46b8d5ee216"><param name="Name" value="CursorIsOnMap"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_edge.html#abfe0b352a0de60628dbe26897ccff2cc"><param name="Name" value="Data"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_edge.html#abfe0b352a0de60628dbe26897ccff2cc"><param name="Name" value="Wunderwunsch::HexMapLibrary::Generic::Edge"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_tile.html#a19a4d76e4caa139a2c169ada554c4cf3"><param name="Name" value="Wunderwunsch::HexMapLibrary::Generic::Tile"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_edge.html#a5fa03e9615424c30a1fe7826f8475ff0"><param name="Name" value="Edge"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_converter.html#a22eabc46fcc045736d8ed252633bed93"><param name="Name" value="EdgeCoordToCartesianCoord"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base_with_edges.html#a1d7722ecdb113d2d58f0f72ef188f209"><param name="Name" value="EdgeIndexByPosition"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_base_edge.html#abc8d329e60bb3f23bd0c92da7df6879a"><param name="Name" value="EdgeOrientation"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_base_edge.html#adeb553aedc800b6921a294e212d16e44"><param name="Name" value="EdgeOrientationAngle"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html#ab760e9ff49c0b081b0e450139fe8d775"><param name="Name" value="Edges"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html#aa71a1babe4b751ee9665e35d720fd607"><param name="Name" value="EdgesByPosition"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_alloc_free_vector3_int_equality_comparer.html#a6ad8afcc25d0d98498b974efc8be5d6b"><param name="Name" value="Equals"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base_with_edges.html#ad193418c86b7ac55010e28dd0e7df2fb"><param name="Name" value="GetAdjacentTileCoordinatesOfEdgeCoordinate"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex.html#a7c97a8d927f43774f6bf6f1dd4de6c9b"><param name="Name" value="GetAdjacentTilePositionsOfEdgePosition"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html#ab00a225f63f1df7b25accc72052d56a6"><param name="Name" value="GetAdjacentTilesOfEdge"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#a9a7216d95e9d08c9b42ca09d0f3785c4"><param name="Name" value="GetAllCoordinatesWithinManhattanRange"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html#a6905b1b4188f85531d568c5a62cc0d13"><param name="Name" value="GetAllTilesWithinManhattanRange"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex.html#aad758b4adefe381a8ccd1a6410995ba7"><param name="Name" value="GetAllWithinManhattanRange"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex.html#a72415385715a58f7ada0839c0c8fa148"><param name="Name" value="GetBorderEdgeCoordinatesOfSetOfTileCoordinates"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex.html#a72415385715a58f7ada0839c0c8fa148"><param name="Name" value="Wunderwunsch::HexMapLibrary::Hex"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#a52f1b97bd347caf7018eb40e75e1515b"><param name="Name" value="Wunderwunsch::HexMapLibrary::HexMapBase"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html#afdaf55b7b03d96d5e5b601db9dcb7338"><param name="Name" value="GetBorderEdgesOfSetOfTiles"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex.html#a4e97bd0d2b5e7dca4b923c03ea7cc2bf"><param name="Name" value="GetCone"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#a86e29cce95ceeeb310e0eb008284a897"><param name="Name" value="GetConeCoordinates"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html#a4df688fa1a5bc6eb7939a35916b65817"><param name="Name" value="GetConeTiles"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html#a222064861a89969f376a01dff69ac197"><param name="Name" value="GetDistance"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html#a222064861a89969f376a01dff69ac197"><param name="Name" value="Wunderwunsch::HexMapLibrary::Generic::HexMap"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex.html#a7c005178b0211959d52c22efcd3d8106"><param name="Name" value="Wunderwunsch::HexMapLibrary::Hex"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#a009fffe052a47079a51d35a1b6c18740"><param name="Name" value="Wunderwunsch::HexMapLibrary::HexMapBase"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_utility.html#a5e2c89cf966381d47293c16cca634a2b"><param name="Name" value="GetEdgeAngle"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#ab78451759936605ef76b477da94f5a2f"><param name="Name" value="GetEdgeCoordBetween"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex.html#a675739ad7858ef6f25905b6fe6067768"><param name="Name" value="GetEdgeCoordinateBetweenTileCoordinates"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#a26121a838d4a9556efa4b4e35bd09230"><param name="Name" value="GetEdgeCoordinatesOfTileCoordinate"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex.html#a2e453cdad3f57e04638ba6a4786e3424"><param name="Name" value="GetEdgeCoordsOfTileCoordinate"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_utility.html#a4bcd84059c7b52402f7f9fa62f2fa4fd"><param name="Name" value="GetEdgeOrientation"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html#a037e12c5204c59ede68f161cff36a246"><param name="Name" value="GetEdgesFromCoordinates< C >"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html#aecf506750e757b10a028841312fb0329"><param name="Name" value="GetEdgesOfTile"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_alloc_free_vector3_int_equality_comparer.html#a7c10fde6d536bde9c1b473b19a291233"><param name="Name" value="GetHashCode"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex.html#aa7118b1cf473301900bc81d8b0774b17"><param name="Name" value="GetLine"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#ada4f46fc001e6016ceb3c12b035cd21d"><param name="Name" value="GetLineCoordinates"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html#a44a8db6856785c8e91878277b6a41927"><param name="Name" value="GetLineTiles"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#a03c8448d25773db7612eee85f2cf63c4"><param name="Name" value="GetNeighbourCoordinates"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex.html#a29f9cf86d376e3e4956fbb979a3f5283"><param name="Name" value="GetNeighbours"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html#ae5452aa6ca8241f8f7e3b0c56d639346"><param name="Name" value="GetNeighbourTiles"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#adacc70c322d08aec178578bb6dfdc057"><param name="Name" value="GetNormalizedPosition"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_mouse.html#aa04da0dc9809e7bd17f4d4fbc45977d1"><param name="Name" value="GetPlanePosition"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex.html#a6e0ae3db35ec6ca3d6645a6be84254fe"><param name="Name" value="GetRing"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#a39a2fd972c78ad2984bcaf18dc2a8eaa"><param name="Name" value="GetRingCoordinates"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html#ad9a5d08a3c3082dac0294cb50f5c711e"><param name="Name" value="GetRingTiles"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html#a1a93aa153dd4b48e5c650b90ed8f9322"><param name="Name" value="GetTilesFromCoordinates< C >"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#ae3ba6a89215e98391574da3aa9259f09"><param name="Name" value="GetValidCoordinates"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html#a6e9c890ab6bd1931da1026bf623b4088"><param name="Name" value="HexMap"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_mouse.html#abe6fc7365a11b7e45929771724927ce2"><param name="Name" value="hexMap"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#a16dd522768071d5ecdddeb4d68c8c8bf"><param name="Name" value="HexMapBase"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base_with_edges.html#a0ebbbfdc39091348203f7fb02230db5e"><param name="Name" value="HexMapBaseWithEdges"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_map_element.html#a7cb4d754eecd3abb34e6d31b4492a614"><param name="Name" value="Index"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_mouse.html#a26dac63213169290097c1a49b8a2fab6"><param name="Name" value="Init"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_utility.html#ad2ecf9a7a1282eae84abaf3d681728d7"><param name="Name" value="LerpCubeCoordinates"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#a9b0ead711428840214e31c3696ff9ba7"><param name="Name" value="MapBoundingBoxSize"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_map_element.html#ab3138a53c4975afadcc54d95bd4edff5"><param name="Name" value="MapElement"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_coordinate_wrapper_rectangular_horizonal_periodic.html#a49085ec99e1a07b6f080aba308c0fcfa"><param name="Name" value="mapSizeX"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="_min_ex1.html"><param name="Name" value="Minimal Example 1: Creating a rectangular shaped map , displaying the mouse position and changing tiles on click"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="_min_ex2.html"><param name="Name" value="Minimal Example 2: Create a Hexagonal shaped map and visualise some of the HexMap Methods"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="_min_ex3.html"><param name="Name" value="Minimal Example 3: A simple real time example - spawning some random walkers belonging to different teams and have them capture tiles"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="_min_ex4.html"><param name="Name" value="Minimal Example 4: a wrapping Map"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="_min_ex5.html"><param name="Name" value="Minimal Example 5: using multiple maps"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#a9b8c1cde0767751a4281a87847411332"><param name="Name" value="name"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#a950b7e2a476f415cc216424befd93563"><param name="Name" value="Name"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_map_element.html#a797d3aecfd32589d41266dc97dfaab3d"><param name="Name" value="NormalizedPosition"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_mouse.html#a09d7a9eefb2f8cad3d0d0aa65da6deb3"><param name="Name" value="OffsetCoord"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_mouse.html#aa8a6062fde558c379c64ddb273354376"><param name="Name" value="OffsetCoordRaw"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_converter.html#aefecee0680a3c47c2cf79eb7f210a809"><param name="Name" value="OffsetCoordToCartesianCoord"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_converter.html#abde5e94b268d20011a03dbff297a8e4d"><param name="Name" value="OffsetCoordToCubeCoord"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_mouse.html#a0e16503e04081083a5d8e0aaf9b1f905"><param name="Name" value="plane"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_map_element.html#a77a59509929c58367d5927a06792d9d4"><param name="Name" value="Position"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#ad562bff5974e99c86cc85d0291a9811b"><param name="Name" value="RemoveInvalidCoordinates"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex.html#a62f807a14cdee482a8ce1410424c41ac"><param name="Name" value="Rotate60DegreeClockwise"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex.html#a517fc556405a40ab437950cc2a415901"><param name="Name" value="Rotate60DegreeCounterClockwise"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_utility.html#a347d899972735c9d18e475b374d10a6a"><param name="Name" value="RoundCubeCoordinate"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_mouse.html#ab20f2ffc247047ac98b50cc70fb5df3c"><param name="Name" value="SelectionRay"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_base_edge.html#ab4c687409965f6385062ac014f7c8ff0"><param name="Name" value="SetValue"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_coordinate_wrapper.html#a419961843090ca93e91350214c45d1d0"><param name="Name" value="ShiftTargetToClosestPeriodicTilePosition"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_coordinate_wrapper.html#a419961843090ca93e91350214c45d1d0"><param name="Name" value="Wunderwunsch::HexMapLibrary::CoordinateWrapper"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_coordinate_wrapper_rectangular_horizonal_periodic.html#aa3941dd1c9aa3ac6c1f48407c78f35e7"><param name="Name" value="Wunderwunsch::HexMapLibrary::CoordinateWrapperRectangularHorizonalPeriodic"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_coordinate_wrapper_rectangular_horizonal_periodic.html#acd536e759901d121a1212300eaeed33e"><param name="Name" value="sqrt3"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_coordinate_wrapper_rectangular_horizonal_periodic.html#acd536e759901d121a1212300eaeed33e"><param name="Name" value="Wunderwunsch::HexMapLibrary::CoordinateWrapperRectangularHorizonalPeriodic"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_converter.html#ae6f6e46191a872469aefd7860f9da2d9"><param name="Name" value="Wunderwunsch::HexMapLibrary::HexConverter"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_tile.html#a5bdb3b239fcf34c66bf2e38b02267dd0"><param name="Name" value="Tile"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#aacf495a11dc01cd8753c1dfa1548813a"><param name="Name" value="TileCount"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#af7caf86f9298954225a3bae45ccb5bba"><param name="Name" value="TileIndexByPosition"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html#a85a13c1af02380151274aeb5a2384c05"><param name="Name" value="Tiles"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html#aa50e5fa078c8b36335708d58fc70734e"><param name="Name" value="TilesByPosition"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_map_element.html#ab5dc505d6c2ee9d8e9df033cb841b029"><param name="Name" value="ToString"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_mouse.html#a3373da375fedde42b2ab1bb4629b548f"><param name="Name" value="Update"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_mouse.html#a0cfc541d040b60a66db85892ec0d1e79"><param name="Name" value="UpdateMousePositionData"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_base_edge.html#a8e3681dd308051ee0e10eb1d59e9ce1b"><param name="Name" value="Value"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_coordinate_wrapper.html#a88ce40cb193b02e0e6b5694104fa06aa"><param name="Name" value="WrapCartesianCoordinate"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_coordinate_wrapper.html#a88ce40cb193b02e0e6b5694104fa06aa"><param name="Name" value="Wunderwunsch::HexMapLibrary::CoordinateWrapper"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_coordinate_wrapper_rectangular_horizonal_periodic.html#a989b80d571dbe90761d959f860e54556"><param name="Name" value="Wunderwunsch::HexMapLibrary::CoordinateWrapperRectangularHorizonalPeriodic"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_coordinate_wrapper.html#a8906c6bc857e9ede3d9f1fb8b9c18008"><param name="Name" value="WrapEdgeCoordinate"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_coordinate_wrapper.html#a8906c6bc857e9ede3d9f1fb8b9c18008"><param name="Name" value="Wunderwunsch::HexMapLibrary::CoordinateWrapper"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_coordinate_wrapper_rectangular_horizonal_periodic.html#ad4aeca8ed5122d38f14eba67364ebe8a"><param name="Name" value="Wunderwunsch::HexMapLibrary::CoordinateWrapperRectangularHorizonalPeriodic"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_coordinate_wrapper.html#ab790788bcbfd35e155db6a11e218bf04"><param name="Name" value="WrapEdgeCoordinates"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_coordinate_wrapper.html#ab790788bcbfd35e155db6a11e218bf04"><param name="Name" value="Wunderwunsch::HexMapLibrary::CoordinateWrapper"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_coordinate_wrapper_rectangular_horizonal_periodic.html#a35476188a36b6e9f2b8fa50d494c179d"><param name="Name" value="Wunderwunsch::HexMapLibrary::CoordinateWrapperRectangularHorizonalPeriodic"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_coordinate_wrapper.html#a078f479927e475b6780c51df0a281584"><param name="Name" value="WrapTileCoordinate"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_coordinate_wrapper.html#a078f479927e475b6780c51df0a281584"><param name="Name" value="Wunderwunsch::HexMapLibrary::CoordinateWrapper"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_coordinate_wrapper_rectangular_horizonal_periodic.html#ac44fed92cd118b3de6753ed9f8dd339e"><param name="Name" value="Wunderwunsch::HexMapLibrary::CoordinateWrapperRectangularHorizonalPeriodic"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_coordinate_wrapper.html#aa94c880435ad0ee27453193b53d97fe1"><param name="Name" value="WrapTileCoordinates"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_coordinate_wrapper.html#aa94c880435ad0ee27453193b53d97fe1"><param name="Name" value="Wunderwunsch::HexMapLibrary::CoordinateWrapper"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_coordinate_wrapper_rectangular_horizonal_periodic.html#adf1b273b72b998af4f96fce6f7f850d1"><param name="Name" value="Wunderwunsch::HexMapLibrary::CoordinateWrapperRectangularHorizonalPeriodic"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_wunderwunsch.html"><param name="Name" value="Wunderwunsch"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_wunderwunsch_1_1_hex_map_library.html"><param name="Name" value="Wunderwunsch::HexMapLibrary"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_alloc_free_vector3_int_equality_comparer.html"><param name="Name" value="Wunderwunsch::HexMapLibrary::AllocFreeVector3IntEqualityComparer"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_alloc_free_vector3_int_equality_comparer.html#a6ad8afcc25d0d98498b974efc8be5d6b"><param name="Name" value="Equals"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_alloc_free_vector3_int_equality_comparer.html#a7c10fde6d536bde9c1b473b19a291233"><param name="Name" value="GetHashCode"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_base_edge.html"><param name="Name" value="Wunderwunsch::HexMapLibrary::BaseEdge"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_base_edge.html#a061a74b7e542d9de7f3fe7934245992b"><param name="Name" value="BaseEdge"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_base_edge.html#ad0f071df72d1769f4e31ee86ac680357"><param name="Name" value="CartesianPosition"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_base_edge.html#abc8d329e60bb3f23bd0c92da7df6879a"><param name="Name" value="EdgeOrientation"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_base_edge.html#adeb553aedc800b6921a294e212d16e44"><param name="Name" value="EdgeOrientationAngle"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_base_edge.html#ab4c687409965f6385062ac014f7c8ff0"><param name="Name" value="SetValue"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_base_edge.html#a8e3681dd308051ee0e10eb1d59e9ce1b"><param name="Name" value="Value"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_base_tile.html"><param name="Name" value="Wunderwunsch::HexMapLibrary::BaseTile"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_base_tile.html#abb155455960f462d03d6e3ed584cb829"><param name="Name" value="BaseTile"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_base_tile.html#aca1a90e590f25a258deea3ebac76b80d"><param name="Name" value="CartesianPosition"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_coordinate_wrapper.html"><param name="Name" value="Wunderwunsch::HexMapLibrary::CoordinateWrapper"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_coordinate_wrapper.html#a419961843090ca93e91350214c45d1d0"><param name="Name" value="ShiftTargetToClosestPeriodicTilePosition"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_coordinate_wrapper.html#a88ce40cb193b02e0e6b5694104fa06aa"><param name="Name" value="WrapCartesianCoordinate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_coordinate_wrapper.html#a8906c6bc857e9ede3d9f1fb8b9c18008"><param name="Name" value="WrapEdgeCoordinate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_coordinate_wrapper.html#ab790788bcbfd35e155db6a11e218bf04"><param name="Name" value="WrapEdgeCoordinates"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_coordinate_wrapper.html#a078f479927e475b6780c51df0a281584"><param name="Name" value="WrapTileCoordinate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_coordinate_wrapper.html#aa94c880435ad0ee27453193b53d97fe1"><param name="Name" value="WrapTileCoordinates"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_coordinate_wrapper_rectangular_horizonal_periodic.html"><param name="Name" value="Wunderwunsch::HexMapLibrary::CoordinateWrapperRectangularHorizonalPeriodic"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_coordinate_wrapper_rectangular_horizonal_periodic.html#a00f2166caacb099c6de8fab91af4969d"><param name="Name" value="CoordinateWrapperRectangularHorizonalPeriodic"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_coordinate_wrapper_rectangular_horizonal_periodic.html#a49085ec99e1a07b6f080aba308c0fcfa"><param name="Name" value="mapSizeX"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_coordinate_wrapper_rectangular_horizonal_periodic.html#aa3941dd1c9aa3ac6c1f48407c78f35e7"><param name="Name" value="ShiftTargetToClosestPeriodicTilePosition"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_coordinate_wrapper_rectangular_horizonal_periodic.html#acd536e759901d121a1212300eaeed33e"><param name="Name" value="sqrt3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_coordinate_wrapper_rectangular_horizonal_periodic.html#a989b80d571dbe90761d959f860e54556"><param name="Name" value="WrapCartesianCoordinate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_coordinate_wrapper_rectangular_horizonal_periodic.html#ad4aeca8ed5122d38f14eba67364ebe8a"><param name="Name" value="WrapEdgeCoordinate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_coordinate_wrapper_rectangular_horizonal_periodic.html#a35476188a36b6e9f2b8fa50d494c179d"><param name="Name" value="WrapEdgeCoordinates"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_coordinate_wrapper_rectangular_horizonal_periodic.html#ac44fed92cd118b3de6753ed9f8dd339e"><param name="Name" value="WrapTileCoordinate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_coordinate_wrapper_rectangular_horizonal_periodic.html#adf1b273b72b998af4f96fce6f7f850d1"><param name="Name" value="WrapTileCoordinates"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_wunderwunsch_1_1_hex_map_library_1_1_generic.html"><param name="Name" value="Wunderwunsch::HexMapLibrary::Generic"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_edge.html"><param name="Name" value="Wunderwunsch::HexMapLibrary::Generic::Edge"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_edge.html#abfe0b352a0de60628dbe26897ccff2cc"><param name="Name" value="Data"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_edge.html#a5fa03e9615424c30a1fe7826f8475ff0"><param name="Name" value="Edge"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html"><param name="Name" value="Wunderwunsch::HexMapLibrary::Generic::HexMap"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html#a2c847b48b923321a966ad55610797f65"><param name="Name" value="CreateEdges"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html#a23af4bbb1b8c31b85af751c8b0ff8768"><param name="Name" value="CreateTiles"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html#ab760e9ff49c0b081b0e450139fe8d775"><param name="Name" value="Edges"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html#aa71a1babe4b751ee9665e35d720fd607"><param name="Name" value="EdgesByPosition"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html#ab00a225f63f1df7b25accc72052d56a6"><param name="Name" value="GetAdjacentTilesOfEdge"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html#a6905b1b4188f85531d568c5a62cc0d13"><param name="Name" value="GetAllTilesWithinManhattanRange"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html#afdaf55b7b03d96d5e5b601db9dcb7338"><param name="Name" value="GetBorderEdgesOfSetOfTiles"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html#a4df688fa1a5bc6eb7939a35916b65817"><param name="Name" value="GetConeTiles"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html#a222064861a89969f376a01dff69ac197"><param name="Name" value="GetDistance"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html#a037e12c5204c59ede68f161cff36a246"><param name="Name" value="GetEdgesFromCoordinates< C >"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html#aecf506750e757b10a028841312fb0329"><param name="Name" value="GetEdgesOfTile"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html#a44a8db6856785c8e91878277b6a41927"><param name="Name" value="GetLineTiles"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html#ae5452aa6ca8241f8f7e3b0c56d639346"><param name="Name" value="GetNeighbourTiles"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html#ad9a5d08a3c3082dac0294cb50f5c711e"><param name="Name" value="GetRingTiles"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html#a1a93aa153dd4b48e5c650b90ed8f9322"><param name="Name" value="GetTilesFromCoordinates< C >"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html#a6e9c890ab6bd1931da1026bf623b4088"><param name="Name" value="HexMap"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html#a85a13c1af02380151274aeb5a2384c05"><param name="Name" value="Tiles"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html#aa50e5fa078c8b36335708d58fc70734e"><param name="Name" value="TilesByPosition"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_tile.html"><param name="Name" value="Wunderwunsch::HexMapLibrary::Generic::Tile"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_tile.html#a19a4d76e4caa139a2c169ada554c4cf3"><param name="Name" value="Data"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_tile.html#a5bdb3b239fcf34c66bf2e38b02267dd0"><param name="Name" value="Tile"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex.html"><param name="Name" value="Wunderwunsch::HexMapLibrary::Hex"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex.html#a7c97a8d927f43774f6bf6f1dd4de6c9b"><param name="Name" value="GetAdjacentTilePositionsOfEdgePosition"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex.html#aad758b4adefe381a8ccd1a6410995ba7"><param name="Name" value="GetAllWithinManhattanRange"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex.html#a72415385715a58f7ada0839c0c8fa148"><param name="Name" value="GetBorderEdgeCoordinatesOfSetOfTileCoordinates"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex.html#a4e97bd0d2b5e7dca4b923c03ea7cc2bf"><param name="Name" value="GetCone"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex.html#a7c005178b0211959d52c22efcd3d8106"><param name="Name" value="GetDistance"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex.html#a675739ad7858ef6f25905b6fe6067768"><param name="Name" value="GetEdgeCoordinateBetweenTileCoordinates"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex.html#a2e453cdad3f57e04638ba6a4786e3424"><param name="Name" value="GetEdgeCoordsOfTileCoordinate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex.html#aa7118b1cf473301900bc81d8b0774b17"><param name="Name" value="GetLine"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex.html#a29f9cf86d376e3e4956fbb979a3f5283"><param name="Name" value="GetNeighbours"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex.html#a6e0ae3db35ec6ca3d6645a6be84254fe"><param name="Name" value="GetRing"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex.html#a62f807a14cdee482a8ce1410424c41ac"><param name="Name" value="Rotate60DegreeClockwise"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex.html#a517fc556405a40ab437950cc2a415901"><param name="Name" value="Rotate60DegreeCounterClockwise"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_converter.html"><param name="Name" value="Wunderwunsch::HexMapLibrary::HexConverter"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_converter.html#a9e193cbd29bc2ab5a921719cc85fb2a2"><param name="Name" value="CartesianCoordToClosestEdgeCoord"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_converter.html#a01505b4d8f88dec8613dc6fb351b58fa"><param name="Name" value="CartesianCoordToCubeCoord"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_converter.html#a6752aabafee5b09f375bce4a736a414b"><param name="Name" value="CartesianCoordToOffsetCoord"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_converter.html#a920d46c2fe1ed5d3ca4d0a9e2bf3402c"><param name="Name" value="CubeCoordToCartesianCoord"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_converter.html#a660f897b4e674b3c56557ed425543c85"><param name="Name" value="CubeCoordToOffsetCoord"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_converter.html#a22eabc46fcc045736d8ed252633bed93"><param name="Name" value="EdgeCoordToCartesianCoord"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_converter.html#aefecee0680a3c47c2cf79eb7f210a809"><param name="Name" value="OffsetCoordToCartesianCoord"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_converter.html#abde5e94b268d20011a03dbff297a8e4d"><param name="Name" value="OffsetCoordToCubeCoord"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_converter.html#ae6f6e46191a872469aefd7860f9da2d9"><param name="Name" value="sqrt3"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html"><param name="Name" value="Wunderwunsch::HexMapLibrary::HexMapBase"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#ab79436182a28fb6cd913daf653476ad8"><param name="Name" value="CalculateMapBoundingBoxAndCenter"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#a409f6360528560c80092dd1409c59792"><param name="Name" value="Center"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#abe90caabc8e601b949a7b380b4875f60"><param name="Name" value="ClampToClosestValidEdgeCoordinate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#abe456f720694feef4977b141afd7215c"><param name="Name" value="ClampToClosestValidTileCoordinate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#aacbe79b11c958845d4438c0b946d0ab8"><param name="Name" value="CoordinateIsOnMap"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#ab4fdaadab95d6fa2e70be5fcc68afd1c"><param name="Name" value="CoordinateWrapper"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#a9a7216d95e9d08c9b42ca09d0f3785c4"><param name="Name" value="GetAllCoordinatesWithinManhattanRange"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#a52f1b97bd347caf7018eb40e75e1515b"><param name="Name" value="GetBorderEdgeCoordinatesOfSetOfTileCoordinates"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#a86e29cce95ceeeb310e0eb008284a897"><param name="Name" value="GetConeCoordinates"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#a009fffe052a47079a51d35a1b6c18740"><param name="Name" value="GetDistance"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#ab78451759936605ef76b477da94f5a2f"><param name="Name" value="GetEdgeCoordBetween"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#a26121a838d4a9556efa4b4e35bd09230"><param name="Name" value="GetEdgeCoordinatesOfTileCoordinate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#ada4f46fc001e6016ceb3c12b035cd21d"><param name="Name" value="GetLineCoordinates"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#a03c8448d25773db7612eee85f2cf63c4"><param name="Name" value="GetNeighbourCoordinates"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#adacc70c322d08aec178578bb6dfdc057"><param name="Name" value="GetNormalizedPosition"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#a39a2fd972c78ad2984bcaf18dc2a8eaa"><param name="Name" value="GetRingCoordinates"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#ae3ba6a89215e98391574da3aa9259f09"><param name="Name" value="GetValidCoordinates"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#a16dd522768071d5ecdddeb4d68c8c8bf"><param name="Name" value="HexMapBase"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#a9b0ead711428840214e31c3696ff9ba7"><param name="Name" value="MapBoundingBoxSize"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#a950b7e2a476f415cc216424befd93563"><param name="Name" value="Name"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#a9b8c1cde0767751a4281a87847411332"><param name="Name" value="name"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#ad562bff5974e99c86cc85d0291a9811b"><param name="Name" value="RemoveInvalidCoordinates"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#aacf495a11dc01cd8753c1dfa1548813a"><param name="Name" value="TileCount"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html#af7caf86f9298954225a3bae45ccb5bba"><param name="Name" value="TileIndexByPosition"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base_with_edges.html"><param name="Name" value="Wunderwunsch::HexMapLibrary::HexMapBaseWithEdges"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base_with_edges.html#ac959bcb73faccbfaa2a2f9f778cf5f2a"><param name="Name" value="CreateEdgeIndex"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base_with_edges.html#a1d7722ecdb113d2d58f0f72ef188f209"><param name="Name" value="EdgeIndexByPosition"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base_with_edges.html#ad193418c86b7ac55010e28dd0e7df2fb"><param name="Name" value="GetAdjacentTileCoordinatesOfEdgeCoordinate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base_with_edges.html#a0ebbbfdc39091348203f7fb02230db5e"><param name="Name" value="HexMapBaseWithEdges"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_mouse.html"><param name="Name" value="Wunderwunsch::HexMapLibrary::HexMouse"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_mouse.html#aa0decb0b4087992392bedc9440c09447"><param name="Name" value="CartesianCoordRaw"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_mouse.html#a99bd86f3daf23c735c765de720ee2de1"><param name="Name" value="CartesianCoordWrapped"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_mouse.html#a7224c20455c09572802eab68a073fa57"><param name="Name" value="ClampToClosestValid"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_mouse.html#a03681eb477b49590979c0be2d96badca"><param name="Name" value="ClosestEdgeCoord"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_mouse.html#a5874d3469bf593750607bea0aff88737"><param name="Name" value="ClosestEdgeCoordRaw"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_mouse.html#a3b98c63f128953dd655c647fae2bc0c8"><param name="Name" value="CubeCoord"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_mouse.html#af8dd53e88f0a157073ea9e4353357a4a"><param name="Name" value="CubeCoordRaw"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_mouse.html#ac010861d305a5c931d5be46b8d5ee216"><param name="Name" value="CursorIsOnMap"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_mouse.html#aa04da0dc9809e7bd17f4d4fbc45977d1"><param name="Name" value="GetPlanePosition"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_mouse.html#abe6fc7365a11b7e45929771724927ce2"><param name="Name" value="hexMap"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_mouse.html#a26dac63213169290097c1a49b8a2fab6"><param name="Name" value="Init"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_mouse.html#a09d7a9eefb2f8cad3d0d0aa65da6deb3"><param name="Name" value="OffsetCoord"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_mouse.html#aa8a6062fde558c379c64ddb273354376"><param name="Name" value="OffsetCoordRaw"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_mouse.html#a0e16503e04081083a5d8e0aaf9b1f905"><param name="Name" value="plane"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_mouse.html#ab20f2ffc247047ac98b50cc70fb5df3c"><param name="Name" value="SelectionRay"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_mouse.html#a3373da375fedde42b2ab1bb4629b548f"><param name="Name" value="Update"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_mouse.html#a0cfc541d040b60a66db85892ec0d1e79"><param name="Name" value="UpdateMousePositionData"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_utility.html"><param name="Name" value="Wunderwunsch::HexMapLibrary::HexUtility"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_utility.html#a5e2c89cf966381d47293c16cca634a2b"><param name="Name" value="GetEdgeAngle"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_utility.html#a4bcd84059c7b52402f7f9fa62f2fa4fd"><param name="Name" value="GetEdgeOrientation"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_utility.html#ad2ecf9a7a1282eae84abaf3d681728d7"><param name="Name" value="LerpCubeCoordinates"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_hex_utility.html#a347d899972735c9d18e475b374d10a6a"><param name="Name" value="RoundCubeCoordinate"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_map_element.html"><param name="Name" value="Wunderwunsch::HexMapLibrary::MapElement"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_map_element.html#a489f96e1536cc44643abb17742ced569"><param name="Name" value="CartesianPosition"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_map_element.html#a7cb4d754eecd3abb34e6d31b4492a614"><param name="Name" value="Index"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_map_element.html#ab3138a53c4975afadcc54d95bd4edff5"><param name="Name" value="MapElement"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_map_element.html#a797d3aecfd32589d41266dc97dfaab3d"><param name="Name" value="NormalizedPosition"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_map_element.html#a77a59509929c58367d5927a06792d9d4"><param name="Name" value="Position"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_map_element.html#ab5dc505d6c2ee9d8e9df033cb841b029"><param name="Name" value="ToString"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_map_shape.html"><param name="Name" value="Wunderwunsch::HexMapLibrary::MapShape"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_map_shape.html#add5c8b98a1381d6a4a5e9fb33ca0b214"><param name="Name" value="CreateHexagonalShapedMap"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_map_shape.html#abcb911d11b77bb88c04b291d176114e1"><param name="Name" value="CreateRectangularShapedMap"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_map_shape.html#a819e2f157c7d98bc1b5c8731a921f4b2"><param name="Name" value="CreateRectangularShapedMapOddRowsOneShorter"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wunderwunsch_1_1_hex_map_library_1_1_map_shape.html#a50fd6b278e3a0df1ce77ce86f60c3d34"><param name="Name" value="CreateTriangularShapedMap"></OBJECT>
+  </UL>
+</UL>
+</BODY>
+</HTML>
