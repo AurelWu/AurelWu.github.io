@@ -13,11 +13,11 @@ Title=HexMapLibrary
 main="HexMapLibrary","index.hhc","index.hhk","index.html","index.html",,,,,0x23520,,0x10387e,,,,,,,,0
 
 [FILES]
-_min_ex1.html
-_min_ex2.html
-_min_ex3.html
-_min_ex4.html
-_min_ex5.html
+min_ex1.html
+min_ex2.html
+min_ex3.html
+min_ex4.html
+min_ex5.html
 namespace_wunderwunsch.html
 namespace_wunderwunsch_1_1_hex_map_library.html
 class_wunderwunsch_1_1_hex_map_library_1_1_alloc_free_vector3_int_equality_comparer.html
@@ -50,7 +50,6 @@ namespace_wunderwunsch_1_1_hex_map_library_1_1_generic.html
 class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_edge.html
 class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_edge-members.html
 class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html
-class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map-members.html
 class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_tile.html
 class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_tile-members.html
 dir_ddb5590ec56c49ca968e5f3bbbb49fae.html
@@ -122,8 +121,6 @@ RectangularMap.png
 RectangularMapOddRow1Shorter.png
 TriangularMap.png
 class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_edge.png
-class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.png
-HexMapEdgesOfTile.png
 class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_tile.png
 IntroImage.png
 PointyAndFlatTopHexagon.png
