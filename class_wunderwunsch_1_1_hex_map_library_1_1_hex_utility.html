@@ -44,6 +44,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="class_wunderwunsch_1_1_hex_map_library_1_1_hex_utility-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Wunderwunsch.HexMapLibrary.HexUtility Class Reference</div>  </div>
@@ -61,12 +62,25 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a347d899972735c9d18e475b374d10a6a"><td class="memItemLeft" align="right" valign="top">static Vector3Int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wunderwunsch_1_1_hex_map_library_1_1_hex_utility.html#a347d899972735c9d18e475b374d10a6a">RoundCubeCoordinate</a> (Vector3 cubeFloatCoords)</td></tr>
 <tr class="memdesc:a347d899972735c9d18e475b374d10a6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">rounds a non-integer cube coordinate to the closest integer cube coordinate  <a href="#a347d899972735c9d18e475b374d10a6a">More...</a><br /></td></tr>
 <tr class="separator:a347d899972735c9d18e475b374d10a6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4bcd84059c7b52402f7f9fa62f2fa4fd"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespace_wunderwunsch_1_1_hex_map_library.html#a9b0a094c5bd5fa2be9d897e19b302c61">EdgeOrientation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wunderwunsch_1_1_hex_map_library_1_1_hex_utility.html#a4bcd84059c7b52402f7f9fa62f2fa4fd">GetEdgeOrientation</a> (Vector3Int edge)</td></tr>
-<tr class="memdesc:a4bcd84059c7b52402f7f9fa62f2fa4fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the angle of the edge. returns 0 if parallel y-axis, 120 if along x-axis and 240 if along z-axis.  <a href="#a4bcd84059c7b52402f7f9fa62f2fa4fd">More...</a><br /></td></tr>
-<tr class="separator:a4bcd84059c7b52402f7f9fa62f2fa4fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e2c89cf966381d47293c16cca634a2b"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wunderwunsch_1_1_hex_map_library_1_1_hex_utility.html#a5e2c89cf966381d47293c16cca634a2b">GetEdgeAngle</a> (<a class="el" href="namespace_wunderwunsch_1_1_hex_map_library.html#a9b0a094c5bd5fa2be9d897e19b302c61">EdgeOrientation</a> orientation)</td></tr>
-<tr class="memdesc:a5e2c89cf966381d47293c16cca634a2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the rotation angle of the edge depending  <a href="#a5e2c89cf966381d47293c16cca634a2b">More...</a><br /></td></tr>
-<tr class="separator:a5e2c89cf966381d47293c16cca634a2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac796c776db8fbe597a1922ac87d86ba1"><td class="memItemLeft" align="right" valign="top">static EdgeAlignment&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wunderwunsch_1_1_hex_map_library_1_1_hex_utility.html#ac796c776db8fbe597a1922ac87d86ba1">GetEdgeAlignment</a> (Vector3Int edge)</td></tr>
+<tr class="memdesc:ac796c776db8fbe597a1922ac87d86ba1"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the angle of the edge. returns 0 if parallel y-axis, 120 if along x-axis and 240 if along z-axis.  <a href="#ac796c776db8fbe597a1922ac87d86ba1">More...</a><br /></td></tr>
+<tr class="separator:ac796c776db8fbe597a1922ac87d86ba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af10d6bcca84e9c520b08f369df4dbf2f"><td class="memItemLeft" align="right" valign="top"><a id="af10d6bcca84e9c520b08f369df4dbf2f"></a>
+static CornerType&#160;</td><td class="memItemRight" valign="bottom"><b>GetCornerType</b> (Vector3Int corner)</td></tr>
+<tr class="separator:af10d6bcca84e9c520b08f369df4dbf2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c74be9d071958afa5e0cad74bd64602"><td class="memItemLeft" align="right" valign="top"><a id="a1c74be9d071958afa5e0cad74bd64602"></a>
+static <a class="el" href="struct_wunderwunsch_1_1_hex_map_library_1_1_map_size_data.html">MapSizeData</a>&#160;</td><td class="memItemRight" valign="bottom"><b>CalculateMapCenterAndExtents</b> (IEnumerable&lt; Vector3Int &gt; tiles, float yOffset=0)</td></tr>
+<tr class="separator:a1c74be9d071958afa5e0cad74bd64602"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad867e3ff30ff8baa8939232494a978b2"><td class="memItemLeft" align="right" valign="top">static List&lt; Vector3Int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wunderwunsch_1_1_hex_map_library_1_1_hex_utility.html#ad867e3ff30ff8baa8939232494a978b2">RemoveInvalidCoordinates</a> (List&lt; Vector3Int &gt; inputCollection, Dictionary&lt; Vector3Int, int &gt; validCollection)</td></tr>
+<tr class="memdesc:ad867e3ff30ff8baa8939232494a978b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper Method for GetValidCoordinates which just compares input Coordinates with the set of valid coordinates of the map and removes all invalid.  <a href="#ad867e3ff30ff8baa8939232494a978b2">More...</a><br /></td></tr>
+<tr class="separator:ad867e3ff30ff8baa8939232494a978b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a33a676cc528d9eaa5243d019c771502e"><td class="memItemLeft" align="right" valign="top">static Dictionary&lt; EdgeAlignment, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>anglebyEdgeAlignment</b></td></tr>
+<tr class="separator:a33a676cc528d9eaa5243d019c771502e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3422b10d661f3f1697bf128d9618286d"><td class="memItemLeft" align="right" valign="top">static Dictionary&lt; EdgeDirection, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>anglebyEdgeDirection</b></td></tr>
+<tr class="separator:a3422b10d661f3f1697bf128d9618286d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Contains helper methods which you usually won't need to use directly, but which are used by the library </p>
@@ -159,8 +173,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a4bcd84059c7b52402f7f9fa62f2fa4fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4bcd84059c7b52402f7f9fa62f2fa4fd">&#9670;&nbsp;</a></span>GetEdgeOrientation()</h2>
+<a id="ac796c776db8fbe597a1922ac87d86ba1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac796c776db8fbe597a1922ac87d86ba1">&#9670;&nbsp;</a></span>GetEdgeAlignment()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -169,7 +183,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="namespace_wunderwunsch_1_1_hex_map_library.html#a9b0a094c5bd5fa2be9d897e19b302c61">EdgeOrientation</a> Wunderwunsch.HexMapLibrary.HexUtility.GetEdgeOrientation </td>
+          <td class="memname">static EdgeAlignment Wunderwunsch.HexMapLibrary.HexUtility.GetEdgeAlignment </td>
           <td>(</td>
           <td class="paramtype">Vector3Int&#160;</td>
           <td class="paramname"><em>edge</em></td><td>)</td>
@@ -187,8 +201,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a5e2c89cf966381d47293c16cca634a2b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5e2c89cf966381d47293c16cca634a2b">&#9670;&nbsp;</a></span>GetEdgeAngle()</h2>
+<a id="ad867e3ff30ff8baa8939232494a978b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad867e3ff30ff8baa8939232494a978b2">&#9670;&nbsp;</a></span>RemoveInvalidCoordinates()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -197,11 +211,21 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static float Wunderwunsch.HexMapLibrary.HexUtility.GetEdgeAngle </td>
+          <td class="memname">static List&lt;Vector3Int&gt; Wunderwunsch.HexMapLibrary.HexUtility.RemoveInvalidCoordinates </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespace_wunderwunsch_1_1_hex_map_library.html#a9b0a094c5bd5fa2be9d897e19b302c61">EdgeOrientation</a>&#160;</td>
-          <td class="paramname"><em>orientation</em></td><td>)</td>
+          <td class="paramtype">List&lt; Vector3Int &gt;&#160;</td>
+          <td class="paramname"><em>inputCollection</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">Dictionary&lt; Vector3Int, int &gt;&#160;</td>
+          <td class="paramname"><em>validCollection</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -211,15 +235,53 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>returns the rotation angle of the edge depending </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">orientation</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<p>Helper Method for GetValidCoordinates which just compares input Coordinates with the set of valid coordinates of the map and removes all invalid. </p>
 
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a33a676cc528d9eaa5243d019c771502e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33a676cc528d9eaa5243d019c771502e">&#9670;&nbsp;</a></span>anglebyEdgeAlignment</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Dictionary&lt;EdgeAlignment, int&gt; Wunderwunsch.HexMapLibrary.HexUtility.anglebyEdgeAlignment</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= </div><div class="line">            <span class="keyword">new</span> Dictionary&lt;EdgeAlignment, int&gt;()</div><div class="line">            {</div><div class="line">                { EdgeAlignment.ParallelToCubeY, 0 },</div><div class="line">                { EdgeAlignment.ParallelToCubeX, 120 },</div><div class="line">                { EdgeAlignment.ParallelToCubeZ, 240 }</div><div class="line">            }</div></div><!-- fragment -->
+</div>
+</div>
+<a id="a3422b10d661f3f1697bf128d9618286d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3422b10d661f3f1697bf128d9618286d">&#9670;&nbsp;</a></span>anglebyEdgeDirection</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Dictionary&lt;EdgeDirection, int&gt; Wunderwunsch.HexMapLibrary.HexUtility.anglebyEdgeDirection</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">             <span class="keyword">new</span> Dictionary&lt;EdgeDirection, int&gt;()</div><div class="line">            {</div><div class="line">                { EdgeDirection.Top, 0 },</div><div class="line">                { EdgeDirection.TopRight, 60 },</div><div class="line">                { EdgeDirection.BottomRight, 120 },</div><div class="line">                { EdgeDirection.Bottom, 180 },</div><div class="line">                { EdgeDirection.BottomLeft, 240 },</div><div class="line">                { EdgeDirection.TopLeft, 300 }</div><div class="line">            }</div></div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->

@@ -42,58 +42,103 @@ $(function() {
 <div class="title">HexMap Library Documentation </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h3>Introduction</h3>
-<p>This library makes working with hexagonal grids an intuitive and easy process. It abstracts the math behind a hexagonal coordinate system completely away and provides many useful methods like <a class="el" href="class_wunderwunsch_1_1_hex_map_library_1_1_hex.html#aa7118b1cf473301900bc81d8b0774b17">GetLine</a>, <a class="el" href="class_wunderwunsch_1_1_hex_map_library_1_1_hex.html#a6e0ae3db35ec6ca3d6645a6be84254fe">GetRing</a>, <a class="el" href="class_wunderwunsch_1_1_hex_map_library_1_1_hex.html#a7c005178b0211959d52c22efcd3d8106">GetDistance</a> and many more while accounting for map borders and wrap-around logic. <br />
-</p>
-<p>While it already supports many commonly used map shapes, it can be easily extended to work with more exotic map layouts. <br />
-The visual representation of the hexagonal map is not part of the library as that is highly implementation specific. However, there are some sample scenes included which you can use as a starting point for visualizing a hexagonal map. <br />
-It is structured in a way that you do not need to know the details of hexagonal-grid-coordinate systems, but I still recommend reading Amit Patel's great page about hexagonal grids: <a href="https://www.redblobgames.com/grids/hexagons/">https://www.redblobgames.com/grids/hexagons/</a> at some point.</p>
-<p><b>This package includes examples which will provide a quick introduction to the library. These examples are also described in detail in this documentation</b> </p><div class="image">
-<img src="IntroImage.png" alt="IntroImage.png"/>
+<div class="textblock"><div class="image">
+<img src="BannerCombined.png" alt="BannerCombined.png"/>
 </div>
-<p> <br />
-</p><h3>Restrictions</h3>
-<p>The library has a few restrictions to keep the code and usage as simple as possible. These restrictions will be no issue for the vast majority of projects and for those affected, it should be easy enough to change. (Feel free to contact me at <a href="#" onclick="location.href='mai'+'lto:'+'aur'+'el'+'wue'+'ns'+'ch@'+'gm'+'ail'+'.c'+'om'; return false;">aurel<span style="display: none;">.nosp@m.</span>wuen<span style="display: none;">.nosp@m.</span>sch@g<span style="display: none;">.nosp@m.</span>mail<span style="display: none;">.nosp@m.</span>.com</a>) if you need advice regarding those limitations. These are the restrictions:</p>
+ <h3>Introduction</h3>
+<p>This library makes working with hexagonal grids and maps an intuitive, easy and maybe even fun process. <br />
+All the details of hexagonal-grid-coordinate systems and the mathematics behind it are abstracted away from you so you can focus on building your game logic using declarative statements. <br />
+We <b>include multiple example scenes</b> displaying some approaches how the library can be used and showing how easily common features like line-of-sight or turn-based movement with movement costs based on map features can be implemented. <br />
+<b>At the bottom of this page you will find step-by-step walkthroughs for every example.</b></p>
+<p>The visual representation of the hexagonal map is not part of the library as that is highly implementation specific. The sample scenes however come with some very basic visualisations.</p>
+<h3>Key Features</h3>
 <ul>
-<li>hexagons have a radius of 1 (center to corner) - that concerns only the logic side of things you can still visualize it differently.</li>
-<li>it only supports Tiles and Edges, not Corners. (we use the term "Tile" for the area/face of the hexagon, edges and corners are hopefully self explanatory)</li>
-<li>it only works for "pointy-top" hexagons, which are by far more commonly used in computer games than flat-top hexagons . <div class="image">
+<li>support for Tiles, Edges and Corners</li>
+<li>supports workflows for finite maps as well as an infinite grid</li>
+<li>maps can optionally be periodic (wrap around). Currently only "cylindrical" (repeating on x-axis) wrapping logic is included directly with the library but you can easily write your own wrap around logic</li>
+<li>support for generics: a tile,edge or corner can have any class/struct as data type</li>
+<li>alternatively derive from the non generic base class or keep the data of the game logic completely separate in arrays aligned with the tile/edge/corner indices of the HexMap</li>
+<li>extensive amount of easy to use methods which can be used as building blocks to solve complex problems</li>
+<li>build with ease of use as primary design</li>
+<li>uses primarily "cube" coordinates. An explanation about the different coordinate systems used in this library can be found [HERE LINK]</li>
+<li>fully documented API</li>
+<li>source code available</li>
+<li>MIT license</li>
+</ul>
+<h3>Downloads</h3>
+<ul>
+<li>from itch.io : <a href="https://aurelwu.itch.io/hexmaplibrary">https://aurelwu.itch.io/hexmaplibrary</a></li>
+<li>from github (library code only without examples) : <a href="https://github.com/AurelWu/HexMapLibrary">https://github.com/AurelWu/HexMapLibrary</a></li>
+</ul>
+<h3>General Usage Principle</h3>
+<p>The Library has a consistent method naming scheme based on their return value allowing for intuitive usage:</p>
+<div class="fragment"><div class="line">result1 = map.GetTiles.Line(origin,target,<span class="keyword">true</span>); <span class="comment">//returns all tiles forming a line from origin to target (3rd param set to true specifies that the origin is included)</span></div><div class="line">result2 = map.GetEdges.AdjacentToCorner(corner); <span class="comment">//return all edges which are neighbouring the corner (usually 3 but at map border it can be just 2)</span></div><div class="line">result3 = map.GetCorners.WithinDistance(centerCorner,distance,<span class="keyword">false</span>); <span class="comment">// returns all corners which are no further than distance away from the center (3rd param set to false specifies that origin is not included)</span></div><div class="line">result4 = map.GetTileDistance.Grid(TileA,TileB); <span class="comment">// returns the grid distance between those 2 tiles (there is also GetTileDistance.Euclidean if you want the euclidean distance)</span></div><div class="line">result5 = map.GetEdge.BetweenTiles(TileA,TileB); <span class="comment">// returns the edge which is between the 2 input tiles (throws an argument exception if the input tiles are not neighbouring)</span></div></div><!-- fragment --><h3>Overview over the classes you will use mostly:</h3>
+<ul>
+<li>HexGrid<ul>
+<li>This is a static class representing an infinite grid on the xz-plane.</li>
+<li>The methods of this class form the foundation of HexMap (which then adds bound checks and wrapping logic on top).</li>
+<li>often useful for intermediate steps even when the final results are on a finite-sized HexMap</li>
+</ul>
+</li>
+<li>HexMap<ul>
+<li>an instance of HexMap represents a specific map instance with a defined set of Tiles ,Edges and Corners.</li>
+<li>optionally it can be periodic (i.e. wraps around at some or all the map borders)</li>
+<li>takes care of all bound checks and wrapping logic</li>
+</ul>
+</li>
+<li>HexMap&lt;T&gt;, HexMap&lt;T,E&gt;, HexMap&lt;T,E,C&gt;<ul>
+<li>please note that they are called HexMapT&lt;T&gt; , HexMapTE&lt;T,E&gt; , HexMapTEC&lt;T,E,C&gt; in this documentation, this is just because the documentation generation software we use does not properly work with generics classes with different overloads and same class name. In the actual library they are all called HexMap&lt;...&gt; .</li>
+<li>generic variants of HexMap in which every Tile (and Edge / Corner) is an object of arbitrary type.</li>
+</ul>
+</li>
+<li>HexConverter<ul>
+<li>static class to convert coordinates between different coordinate systems (cartesian, cube, offset)</li>
+</ul>
+</li>
+<li>HexMapBuilder<ul>
+<li>static class to easily generate rectangular ,hexagonal or triangular shaped maps.</li>
+</ul>
+</li>
+<li>HexMouse<ul>
+<li>Monobehaviour which updates information about the mouse position every frame (current tile, nearest edge, nearest corner, is cursor on map)</li>
+</ul>
+</li>
+</ul>
+<h3>About "Pointy-Top" and "Flat-Top"-Hexagons</h3>
+<p>Everything in this library is build around pointy-top hexagons, however flat-top hexagons are just rotated pointy-top hexagons so you can just rotate the input and output coordinates, or even just your camera. Generally we recommend using pointy-top hexagons because you can fit more hexagons vertically this way which partly balances out the fact that computer screens are wider than tall. If you are not convinced by that, take a look at honeybees and how they build their combs. </p><div class="image">
 <img src="PointyAndFlatTopHexagon.png" alt="PointyAndFlatTopHexagon.png"/>
 <div class="caption">
 left: pointy-top hexagon, right: flat-top hexagon</div></div>
- <br />
-</li>
-</ul>
-<h3>Different Approaches possible : Generics, creating a child class or keeping the data separate.</h3>
-<p>The following three approaches are all demonstrated in the included examples. <br />
-</p>
-<ol type="1">
-<li>Using the generic <a class="el" href="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html">HexMap&lt;Tile&gt;</a> and <a class="el" href="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_hex_map.html">HexMap&lt;Tile,Edge&gt;</a> classes which allows you full flexibility to use any object as a tile or edge. The HexMap will pass that generic argument through to <a class="el" href="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_tile.html">Tile&lt;T&gt;</a> and <a class="el" href="class_wunderwunsch_1_1_hex_map_library_1_1_generic_1_1_edge.html">Edge&lt;E&gt;</a> who both inherit from a non-generic base class which contains information about the position and index of it.</li>
-<li>An alternative approach is to derive from the the non-generic <a class="el" href="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base.html">HexMapBase</a> or <a class="el" href="class_wunderwunsch_1_1_hex_map_library_1_1_hex_map_base_with_edges.html">HexMapBaseWithEdges</a> class and create a concrete implementation. <br />
-</li>
-<li>Finally it is also possible to just use an instance of HexMapBase/HexMapBaseWithEdges and keep all possible Map Data in arrays which are aligned with how the tile and edge positions are indexed.</li>
-</ol>
-<p>There are surely even more possibilities so pick the one which suits your needs the most.</p>
+<p> <br />
+ </p><h3>Performance:</h3>
+<p>While we made sure that the library does have reasonable performance we always prioritised useability and flexibility over raw performance. We made that decision because in most use cases it won't matter at all, and in those where it does, the solution will most likely be to just cache results. For example instead of always recalculating the result of HexMap.GetTiles.OfRing() which might become costly if the radius is big you can just calculate the relative position of the resulting tiles to the center once for each radius you need and store them. If you ever encounter a performance issue which is not solvable this way and you also don't find another solution, please message us and we will try to find a solution (no promises that we can solve your particular problem but we will try our best as long as it is within reasonable scope)</p>
 <h3>Examples</h3>
-<p>The following examples use an approach with generics. Additionally, functionally identical scripts with the 2 other approaches mentioned before are included in the package for the first 3 examples. All these examples use a very simple way to visualise the map which is far from perfect in many ways, especially when it comes to performance. Please keep in mind that this library is not tied to a certain visualisation and you can easily use procedurally generated meshes, Environments created in 3D modelling software or even handpainted backgrounds instead.</p>
 <p>These examples are kept as simple and as possible so you can focus on the usage of the library, this code is by no means intended to be used in production code and is not suitable structured for that but for ease of understanding. You will also notice some duplicate code between them, that is consciously done to keep each example self-contained.</p>
-<p>-<a class="el" href="min_ex1.html">Minimal Example 1: Creating a rectangular shaped map , displaying the mouse position and changing tiles on click</a></p>
-<p>-<a class="el" href="min_ex2.html">Minimal Example 2: Create a Hexagonal shaped map and visualise some of the HexMap Methods</a></p>
-<p>-<a class="el" href="min_ex3.html">Minimal Example 3: A simple real time example - spawning some random walkers belonging to different teams and have them capture tiles</a></p>
-<p>-<a class="el" href="min_ex4.html">Minimal Example 4: a wrapping Map</a></p>
-<p>-<a class="el" href="min_ex5.html">Minimal Example 5: using multiple maps</a> </p>
-</li>
-</ul> 
+<p>All these examples use a very simple way to visualise the map which is far from perfect in many ways, especially when it comes to performance as we use one GameObject per tile. We use custom shader which draws the hex grid lines on top of the mesh based on the world position. As this is not fundamental for the library itself we omit an explanation what this shader does in detail.</p>
+<p>Please keep in mind that this library is not tied to a certain visualisation and you can easily use procedurally generated meshes, Environments created in 3D modelling software or even handpainted backgrounds instead.</p>
+<p>You can either follow the tutorials step by step or take a look at the finished scene &amp; script for each example.</p>
+<p>-<a class="el" href="_ex0.html">Example 0: Hello hex world</a></p>
+<p>-<a class="el" href="_ex1.html">Example 1: Mouse markers and simple map manipulation</a></p>
+<p>-<a class="el" href="_ex2.html">Example 2: Line of sight</a></p>
+<p>There are two more scenes in the example folder, one covering path finding while the other is about building and road placement. The script files are documented so by now they are hopefully easily understood.</p>
+<h3>Reading Recommendation</h3>
+<p>If you want to understand hexagonal grids in depth we recommend reading Amit Patel's excellent page about hexagons: <a href="https://www.redblobgames.com/grids/hexagons/">https://www.redblobgames.com/grids/hexagons/</a></p>
+<h3>License</h3>
+<p>The MIT License (MIT)</p>
+<p>Copyright (c) 2018 Aurel "AurelWu" Wünsch</p>
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
 <h3>Impressum</h3>
-<p>Electronic Sport Events UG (haftungsbeschränkt)</p>
-<p>Geschäftsführer: Aurel Wünsch</p>
-<p>Biedermannstraße 42</p>
-<p>04277 Leipzig</p>
-<p>Telefon: +49 (0)175 / 780 43 40</p>
-<p>E-Mail: aurelwuensch@gmail.com</p>
-<p>Registergericht: Amtsgericht Leipzig</p>
-<p>Registernummer: HRB 27087 </p>
-<p>Umsatzsteuer-Identifikationsnummer gem. § 27 a Umsatzsteuergesetz: DE294361901</p>
+<p>Electronic Sport Events UG (haftungsbeschränkt) <br />
+Geschäftsführer: Aurel Wünsch <br />
+Biedermannstraße 42 <br />
+04277 Leipzig <br />
+Telefon: +49 (0)175 / 780 43 40 <br />
+E-Mail: <a href="#" onclick="location.href='mai'+'lto:'+'aur'+'el'+'wue'+'ns'+'ch@'+'gm'+'ail'+'.c'+'om'; return false;">aurel<span style="display: none;">.nosp@m.</span>wuen<span style="display: none;">.nosp@m.</span>sch@g<span style="display: none;">.nosp@m.</span>mail<span style="display: none;">.nosp@m.</span>.com</a> <br />
+Registergericht: Amtsgericht Leipzig <br />
+Registernummer: HRB 27087 <br />
+Umsatzsteuer-Identifikationsnummer gem. § 27 a Umsatzsteuergesetz: DE294361901 </p>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
